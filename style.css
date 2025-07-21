@@ -133,7 +133,7 @@
 @media (max-width: 768px){
     .tentang-box{
         grid-template-columns: 1fr;
-        /* margin-top: -20px; */
+        margin-top: -30px;
     }
 .tentang .info {
     flex-direction: row; /* horizontal di layar kecil */
