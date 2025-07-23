@@ -8,7 +8,7 @@
     margin-left: 3%;
     width: 94%;
     height: 75vh;
-    background-color: #f9f9f9;
+    background-color: #f3f3f3;
     display: flex;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -223,7 +223,64 @@ p{
   .card p{
     margin-top: 16px;
     font-size: 14px;
-    text-align: justify;
+    /* text-align: justify; */
     width: 80%;
   }
 }
+
+
+.wrapper{
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  background-color: #f3f3f3;
+   /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); */
+
+}
+
+.jan{
+  width: 45%;
+  margin: 20px 30px;
+}
+
+.jan img{
+  width: 100%;
+  height: auto;
+}
+
+.jin{
+  width: 45%;
+}
+
+.jin h2{
+   margin-top: 100px;
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.jin p{
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 18px;
+}
+
+@media(max-width: 768px){
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .jan{
+    width: 80%;
+  }
+
+  .jin{
+    width: 100%;
+  }
+
+  .jan img{
+    width: 100%;
+  }
+}
+
