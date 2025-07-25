@@ -282,5 +282,16 @@ p{
   .jan img{
     width: 100%;
   }
+
+  .jin h2{
+    margin-top: 10px;
+    font-size: 28px;
+    color: #1d4e89;
+  }
+
+  .jin p {
+    font-size: 12px;
+    color: black;
+  }
 }
 
