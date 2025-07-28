@@ -1,0 +1,104 @@
+.juu{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f97316;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+}
+
+.hii{
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.hoo{
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+ .hii h2 {
+      font-size: 40px;
+      color: #ffffff; /* Warna biru tua */
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .hii p{
+        color: rgb(255, 255, 255);
+    }
+    .hoo img {
+      width: 100%;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 768px) {
+      .juu {
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 120px;
+      }
+
+      .hii, .hoo{
+        padding: 10px;
+        text-align: center;
+      }
+
+      .hii h2 {
+        font-size: 32px;
+      }
+
+      .hii p{
+        font-size: 12px;
+        text-align: justify;
+      }
+    }
+
+    .video-wrapper {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #111;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .video-title {
+    font-size: 1.1rem;
+  }
+}

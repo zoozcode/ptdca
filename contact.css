@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.per{
+    width: 90%;
+    margin-left: 5%;
+    height: 20vh;
+    background-color: #042f4b;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+
+.kun{
+    min-width: 600px;
+    flex: 3;
+    padding: 10px;
+}
+
+.kun h2{
+    color: #ffffffff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kun p{
+    color: rgba(163, 163, 163, 1);
+}
+
+.kin{
+    min-width: 300px;
+    flex: 1;
+    padding-left: 100px;
+    padding-top: 15px;
+}
+
+.kin a{
+   display: inline-block;
+  background-color: #f97316; /* Warna oranye */
+  color: white;
+  font-weight: bold;
+  padding: 12px 30px;
+  text-align: center;
+  border-radius: 999px; /* Membulat penuh */
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Bayangan halus */
+  transition: background-color 0.3s ease;
+}
+
+@media(max-width: 768px){
+    .per{
+        height: auto;
+        
+    }
+    .kun{
+        flex: 1;
+        min-width: 300px;
+        padding: 10px;
+
+    }
+
+    .kun h2{
+        font-size: 22px;
+    }
+
+    .kun p{
+        font-size: 11px;
+    }
+
+    .kin{
+        flex: 1;
+        min-width: 100px;
+        padding: 10px;
+        /* align-items: center; */
+        align-items: center;
+      justify-content: center;
+    }
+}
+
+
+ .container97 {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+      background-color: white;
+      border-radius: 10px;
+    }
+    .left {
+      width: 48%;
+    }
+
+    dotlottie-wc{
+     width: 100%;
+  max-width: 900px; /* Bisa diganti 700 atau 800 jika masih kecil */
+  transform: scale(1.9); /* Tambahkan efek zoom */
+  transform-origin: center;
+  height: auto;
+}
+
+.contact-item1 p{
+        font-size: 18px;
+    }
+    .contact-item2 p{
+        font-size: 18px;
+    }
+
+    .right {
+      width: 48%;
+    }
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      color: #1d3557;
+      margin-bottom: 15px;
+    }
+    .description {
+      font-size: 16px;
+      margin-bottom: 30px;
+      color: #333;
+    }
+    .contact-box {
+      background-color: #042f4b;
+      color: white;
+      border-radius: 20px;
+      padding: 25px;
+    }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .contact-item img {
+      width: 50px;
+      margin-right: 20px;
+    }
+    .phone-number {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .address {
+      margin-left: 70px;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+    @media (max-width: 768px) {
+      .container97 {
+        flex-direction: column;
+      }
+      .left, .right {
+        width: 100%;
+      }
+      .address {
+        margin-left: 0;
+      }
+
+      .title {
+        font-size: 18px;
+      }
+
+       .contact-item1 p{
+        font-size: 12px;
+    }
+    .contact-item2 p{
+        font-size: 12px;
+    }
+
+       dotlottie-wc{
+  max-width: 1200px;
+    transform: scale(1.2);
+  }
+
+  
+    }
+
+
+    
