@@ -1,9 +1,10 @@
  .section {
-      background-color: #042f4b;
+      background-color: #00aaff;
       border-bottom-right-radius: 20px;
       border-top-right-radius: 20px;
       padding: 40px;
-      /* margin: 20px; */
+      margin-left: 10px;
+      margin-top: 20px;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
