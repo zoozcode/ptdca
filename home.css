@@ -70,7 +70,7 @@
 
 .video-container {
   position: relative;
-  width: 100%;
+  width: 90%;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
@@ -100,5 +100,9 @@
 @media (max-width: 768px) {
   .video-title {
     font-size: 1.1rem;
+  }
+
+  .video-container{
+    margin: 20px;
   }
 }
