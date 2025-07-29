@@ -706,3 +706,15 @@ footer{
     max-width: 100%;
       }
     }
+
+
+    .ganjar{
+            font-size: 18px;
+            color: #00234c;
+          }
+
+          @media(max-width: 768px){
+            .ganjar{
+              font-size: 10px;
+            }
+          }
