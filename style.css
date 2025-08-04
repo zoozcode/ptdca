@@ -175,23 +175,25 @@
 
 .sisi{
   background-color: #00aaff;
-  width: 100%;
-  height: 80vh;
-  display: flex;
+ padding: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
     border-radius: 0 0 30px 30px;
   
 }
 
 .sisi .kanan{
-  width: 40%;
- padding-top: 120px;
- padding-left: 40px;
+  flex: 1;
+      min-width: 300px;
+      padding: 20px;
 }
 
 .sisi .kiri{
-  padding-left: 40px;
-  padding-top: 60px;
-  width: 56%;
+   flex: 1;
+      min-width: 300px;
+      padding: 20px;
 }
 
 .sisi .kiri .bor{
@@ -203,39 +205,15 @@
  
 }
 
-.btn2{
-  text-decoration: none;
-  background-color: #ff0000;
-  border: 2px solid white;
-  border-radius: 10px;
-  color: white;
-  width: 220px;
-  height: 40px;
-}
-
-.btn2:hover{
-  background-color: #9100bf;
-  color: white;
-   border: 2px solid white;
-  border-radius: 10px;
-}
-
 @media(max-width: 768px){
   .sisi{
-    display: flex;
     flex-direction: column;
-    margin-top: -60px;
-    height: 850px;
+        padding: 20px;
   }
 
-  .sisi .kanan{
-    width: 90%;
-    margin-top: -50px;
-  }
-
-  .sisi .kiri{
-    width: 90%;
-    margin-top: -40px;
+  .kanan, .kiri{
+    padding: 10px;
+        text-align: center;
   }
 
   .sisi .kiri .bor{
@@ -609,12 +587,6 @@ footer{
             }
         }
 
-
-        /* @media(max-width:768px){
-          .maps{
-            max-width: 330px;
-          }
-        } */
 
         .maps {
   display: flex;
